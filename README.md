@@ -8,4 +8,4 @@ The model training, including both SFT and DPO, was conducted using **[LLaMA-Fac
 
 **Model Weights:**
 You can find and download our trained model on Hugging Face:
-🤗 [wvs-thud]([https://huggingface.co/your-model-link-here](https://huggingface.co/Rakancorle1/wvs-thud-model))
+🤗 [wvs-thud]([https://huggingface.co/Rakancorle1/wvs-thud-model])
