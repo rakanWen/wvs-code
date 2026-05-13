@@ -1,15 +1,33 @@
 
-## 📊 Evaluation & Training
+## 🚀 Official Codebase
 
-This repository primarily provides the **evaluation code** and release interface for our THUD-aligned model.
+This is the official code repository for our paper **When Vision Speaks for Sound**.
 
-The full training pipeline follows a standard **SFT → DPO** post-training recipe and is implemented with **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)**.
+It provides the code, model release, and evaluation interface for **THUD**, an intervention-driven diagnostic framework for probing whether video-capable multimodal models truly verify audio or rely on visual-semantic shortcuts.
 
 ---
+### ⚙️ Environment Setup
+
+Install the Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Some system-level dependencies are not included in `requirements.txt`.  
+For video/audio processing and DeepSpeed compilation, please also make sure that `ffmpeg`, CUDA toolkit / `nvcc`, and the required NVIDIA libraries are available in your environment.
+
+We use **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** for SFT and DPO training. Please install LLaMA-Factory separately following its official instructions, or clone it manually:
+
+```bash
+git clone https://github.com/hiyouga/LLaMA-Factory.git
+cd LLaMA-Factory
+pip install -e .
+```
+
 
 ### 🔧 Training with LLaMA-Factory
 
-Our SFT and DPO training pipeline is implemented with **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)**.  
 To reproduce or adapt the training process, please first register the corresponding datasets in:
 
 ```bash
