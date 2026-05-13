@@ -1,9 +1,9 @@
 
-## 🚀 Official Codebase
+## 📘 Official Codebase
 
-This is the official code repository for our paper **When Vision Speaks for Sound**.
+This is the official code repository for paper **When Vision Speaks for Sound**.
 
-It provides the code, model release, and evaluation interface for **THUD**, an intervention-driven diagnostic framework for probing whether video-capable multimodal models truly verify audio or rely on visual-semantic shortcuts.
+It provides the code, model release, and evaluation interface for **Thud**, an intervention-driven diagnostic framework for probing whether video-capable multimodal models truly verify audio or rely on visual-semantic shortcuts.
 
 ---
 ### ⚙️ Environment Setup
