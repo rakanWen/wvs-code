@@ -1,0 +1,24 @@
+# Make sure your NVIDIA driver is compatible with CUDA 12.4.
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+torch==2.10.0
+torchvision==0.25.0
+torchaudio==2.10.0
+
+transformers==5.2.0
+accelerate==1.11.0
+datasets
+decord
+opencv-python-headless
+moviepy
+librosa
+openai
+numpy
+tqdm
+pydantic
+huggingface_hub[cli]
+qwen-omni-utils
+google-genai
+deepspeed==0.16.7
+torchcodec==0.10.0
+soundfile
