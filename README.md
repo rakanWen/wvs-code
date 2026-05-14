@@ -144,7 +144,7 @@ Our training consists of two stages:
 2. **Direct Preference Optimization (DPO)**  
    We then apply DPO using preference pairs that encourage audio-verified responses over visually plausible shortcut responses.
 
-For the detailed hyperparameters used in our experiments, including learning rate, batch size, cutoff length, LoRA settings, DeepSpeed configuration, and training schedule, please refer to **Appendix C** in our paper.
+For the detailed hyperparameters used in our experiments, including learning rate, batch size, cutoff length, LoRA settings, DeepSpeed configuration, and training schedule, please refer to **Appendix C** in our [paper](https://github.com/rakanWen/wvs-code/blob/main/wvs-paper.pdf).
 
 ---
 
